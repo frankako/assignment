@@ -1,0 +1,17 @@
+/** 
+ * Project Name: Meta Boxes (Date and Fieldset) Assignment
+*  Author: Frank Ako
+*  Version: 1.0
+*/
+
+/****Resources for Wordpress version 5.3****/
+In the Meta Boxes (Date and Fieldset) Assignment, I used ONLINE GENERATED metabox fields from METABOX link: https://docs.metabox.io.
+
+/****Development***/
+After generating the fileds, i customized the fields to fit the need for this project. Details on the project can be found in the custome theme folder name "assignment". MetaBox code is in "functions.php" file, and the front end code is in "index.php" file.
+
+/***Additional details***/
+A theme layout is setup for the purpose of the project. 
+
+/***steps to develop a metabox***/
+In plugins folder, there is a structure setup for personal development of a metabox done by me. Directory "fa-metabox/fa-metabox.php"
