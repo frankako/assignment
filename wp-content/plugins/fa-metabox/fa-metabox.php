@@ -43,7 +43,7 @@ function save_custom_meta_fields($post_id, $post) {
 		return $post_id;
 	}
 
-	if ($post->post_type !== "post") {
+	if ($post->post_type !== "page") {
 		return $post_id;
 	}
 
@@ -67,7 +67,6 @@ function save_custom_meta_fields($post_id, $post) {
 		"release_date" => $release_date,
 		"tel" => $tel,
 	);
-	var_dump($data);
 
 	update_post_meta($post_id, "custom_meta", serialize($data));
 }

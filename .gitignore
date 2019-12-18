@@ -3,7 +3,6 @@
 /wp-includes
 /wp-content/upgrade
 /wp-content/uploads
-index.php
 .htaccess
 license.txt
 readme.html
